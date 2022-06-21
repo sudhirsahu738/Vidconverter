@@ -1,7 +1,7 @@
 #Don't be a thief by stealing other's Hardwork, it took time and effort to make this repo.
 #Respect my work by not making any changes here.
 
-START_TEXT = "Hello, Developers \n\n I am a Multi Functional Video Converter Bot.\n\n Many Useful Functions are available with Max Option.\n\nIf any error appears, Then Report it to 👨‍💻Developer"
+START_TEXT = "Hello, Developers \n\n I am a Multi Functional Video Converter Bot.\n\n Many Useful Functions are available with Max Option.\n\n If any error appears, Then Report it to\n 👨‍💻Developer"
 
 FORCE_SUB_TEXT = "In order to use this bot, you've to join my parent channel."
 
