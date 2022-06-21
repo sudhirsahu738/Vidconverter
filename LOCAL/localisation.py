@@ -1,7 +1,7 @@
 #Don't be a thief by stealing other's Hardwork, it took time and effort to make this repo.
 #Respect my work by not making any changes here.
 
-START_TEXT = "Hello, Developers \n\n I am a Multi Functional Video Converter Bot.\n\n Many Useful Functions are available with Max Option.\n\n If any error appears, Then Report it to\n 👨‍💻Developer"
+START_TEXT = "Hello, Developers \n\n I am a Multi Functional Video Converter Bot.\n\n Many Useful Functions are available with Max Option.\n\n If any error appears, Then Report it to\n 👨‍💻Developer\n"
 
 FORCE_SUB_TEXT = "In order to use this bot, you've to join my parent channel."
 
@@ -9,9 +9,9 @@ CHANNEL_LINK = "https://t.me/DroneBots"
 
 SUPPORT_LINK = "https://t.me/TeamDrone"
 
-info_text = "This bot is developed by @MaheshChauhan\n\nWritten in python library TELETHON.\n\nBot by : @DroneBots\nSupport : @TeamDrone\n\nV1.4"   
+info_text = "This bot is developed by @MrKumarShyam\n\nWritten in python library TELETHON.\n\n"   
 
-help_text = """**v1.4**
+help_text = ""CREATED BY MR SHYAM KUMAR"" 
 
 •`Encode` - encode your video into different lib format or resolution
 
@@ -29,7 +29,7 @@ help_text = """**v1.4**
 
 source_text = "**Deploy your own bot**"
 
-DEV = "https://t.me/MaheshChauhan"
+DEV = "https://t.me/MrKumarShyam"
 
 spam_notice = "This bot is hosted on heroku, and hence can just run one process at a time.Spamming the bot or encoding adult videos will lead you to a ban."
 
