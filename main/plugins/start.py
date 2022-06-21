@@ -76,7 +76,9 @@ async def help(event):
 @Drone.on(events.callbackquery.CallbackQuery(data="plugins"))
 async def plugins(event):
     await event.edit(f'{help_text}',
-                    buttons=[[Button.inline("Menu.", data="menu")]])
+                    buttons=[[Button.inline("INFO", data="info"),
+                             Button.inline("SETTING", data="help")],
+                            [Button.url("Developer", url="https://t.me/MrKumarShyam")]])
                    
  #-----------------------------------------------------------------------------------------------                            
     
