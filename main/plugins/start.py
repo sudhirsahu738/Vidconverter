@@ -69,9 +69,9 @@ async def help(event):
                          [
                          Button.inline("PLUGINS", data="plugins"),
                          Button.inline("RESTART", data="restart")],
-                         [Button.url("SUPPORT", url=f"{SUPPORT_LINK}")],
-                         [
-                         Button.inline("BACK", data="menu")]])
+                         [Button.url("SUPPORT", url=f"{SUPPORT_LINK}")]
+                         
+                        ])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="plugins"))
 async def plugins(event):
