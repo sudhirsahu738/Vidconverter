@@ -25,9 +25,9 @@ from LOCAL.localisation import info_text, spam_notice, help_text, DEV, source_te
 @Drone.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
     await event.reply(f'{st}', 
-                      buttons=[[Button.inline("Menu.", data="menu"),
-                               Button.inline("Menu.", data="menu"), 
-                               Button.inline("Menu.", data="menu")], 
+                      buttons=[[Button.inline("INFO", data="info"),
+                               Button.inline("NOTICE", data="notice"), 
+                               Button.inline("SETTING", data="help")], 
                               [Button.url("Developer", url="https://t.me/MrKumarShyam")]])
     tag = f'[{event.sender.first_name}](tg://user?id={event.sender_id})'
     await Drone.send_message(int(ACCESS_CHANNEL), f'{tag} started the BOT')
