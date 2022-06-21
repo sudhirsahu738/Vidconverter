@@ -11,7 +11,7 @@ SUPPORT_LINK = "https://t.me/TeamDrone"
 
 info_text = "This bot is developed by @MrKumarShyam\n\nWritten in python library TELETHON.\n\n"   
 
-help_text = ""CREATED BY MR SHYAM KUMAR"" 
+help_text = """**CREATED BY MR SHYAM**
 
 •`Encode` - encode your video into different lib format or resolution
 
