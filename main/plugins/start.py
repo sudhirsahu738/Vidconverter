@@ -69,7 +69,7 @@ async def help(event):
                          [
                          Button.inline("PLUGINS", data="plugins"),
                          Button.inline("RESTART", data="restart")],
-                         [Button.url("SUPPORT", url=f"{SUPPORT_LINK}")]
+                         [Button.url("Developer", url="https://t.me/MrKumarShyam")]
                          
                         ])
     
